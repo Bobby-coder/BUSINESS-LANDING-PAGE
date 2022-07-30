@@ -39,7 +39,7 @@
 
 .item{
     list-style-type: none;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: capitalize;
 }
 
@@ -49,18 +49,22 @@
     color: #fff;
     background-color: transparent;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .section{
-    margin-top: 60px;
+    height: 500px;
+    padding: 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 30px ;
 }
 
 .section > img{
-    height: 550px;
+    height: 420px;
     width: 450px;
-    position: absolute;
-    top: 120px;
-    left: 200px;
     border-radius: 10px;
 }
 
@@ -68,15 +72,12 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    position: absolute;
-    right: 180px;
 }
 
 .right-section > h1{
-    font-size: 70px;
+    font-size: 60px;
     color: #fff;
-    line-height: 75px;
-    font-weight: 600;
+    line-height: 80px;
 }
 
 .right-section > p{
@@ -92,11 +93,17 @@
 }
 
 .input-container > input{
+    width: 70%;
     border: none;
 }
 
+.input-container > input::placeholder{
+    font-size: 18px;
+}
+
 .input-container > button{
-    padding: 10px 20px;
+    font-size: 18px;
+    padding: 5px 20px;
     text-transform: capitalize;
     color: #fff;
     background-color: #8bb7a2;
@@ -145,14 +152,13 @@
 .section-five{
     display: flex;
     justify-content: space-evenly;
-    margin: 50px 0;
+    margin: 70px 0;
 }
 
 .section-five > .left{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-top: 100px;
+    justify-content: space-evenly;
 }
 
 .section-five > .left > h1{
