@@ -10,8 +10,11 @@ This is a code repository for the Business Landing Page.
 
 ## Time taken to finish this project
 
-It took 7 hours to finish it.
+It took me about 6 hours to complete this project.
 
 ## What I learned from this Project?
 
 - Learnd to use css flex-box.
+- Learnd to use css z-index.
+- Learnd to use css position.
+
