@@ -43,9 +43,15 @@
     text-transform: capitalize;
 }
 
+.list{
+    display: flex;
+    gap: 20px;
+}
+
 .nav-btn{
+    align-self: center;
     text-decoration: none;
-    padding: 10px 50px;
+    padding: 10px 30px;
     border: 1px solid #fff;
     color: #fff;
     background-color: transparent;
@@ -308,7 +314,7 @@
     color: #fff;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width: 899px){
 
     br{
         display: none;
