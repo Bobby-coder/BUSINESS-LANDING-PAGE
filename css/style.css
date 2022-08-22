@@ -15,7 +15,7 @@
 .home{
     padding: 0 7.5%;
     background-color: #636c79;
-    height: 100vh;
+    padding-bottom: 50px;
 }
 
 .nav{
@@ -420,6 +420,10 @@
 
     .section > .right-section > .input-container{
         padding: 10px;
+    }
+
+    .input-container{
+        align-self: center;
     }
 
     .input-container > input{
